@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Loja de Efeitos Sonoros</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>SoundPack Store</h1>
+      <nav>
+        <a href="#produtos">Produtos</a>
+        <a href="#carrinho">Carrinho (<span id="contador-carrinho">0</span>)</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h2>Pacotes de efeitos, loops e samples para Octapad e muito mais</h2>
+      <p>Encontre aqui os melhores sons para suas produções e performances.</p>
+    </section>
+
+    <section id="produtos" class="produtos-lista">
+      <!-- Produtos serão inseridos aqui via JS -->
+    </section>
+
+    <section id="carrinho" class="carrinho">
+      <h2>Seu Carrinho</h2>
+      <div id="itens-carrinho">
+        <p>Seu carrinho está vazio.</p>
+      </div>
+      <div class="total-preco">
+        Total: R$ <span id="total">0.00</span>
+      </div>
+      <button id="finalizar-compra" disabled>Finalizar Compra</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 SoundPack Store. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
